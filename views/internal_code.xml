@@ -1,0 +1,51 @@
+<openerp>
+    <data noupdate="0">
+        <record id="internal_code_view_form" model="ir.ui.view">
+            <field name="name">internal_code_view_form</field>
+            <field name="model">account_move_internal_code.internal_code</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <field name="key"/>
+                            <field name="next_number"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="internal_code_view_tree" model="ir.ui.view">
+            <field name="name">internal_code_view_tree</field>
+            <field name="model">account_move_internal_code.internal_code</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="key"/>
+                    <field name="next_number"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="internal_code_action_list" model="ir.actions.act_window">
+            <field name="name">Internal Codes</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">account_move_internal_code.internal_code</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Empty now.Do not create items yourself.
+                </p>
+                <p>
+                    You can come back here later.
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="internal_code_menu_categ" name="Internal Codes" parent="account.menu_finance_configuration"
+                  sequence="" groups="base.group_no_one"/>
+
+        <menuitem id="internal_code_menu" name="Internal Codes"
+                  parent="account_move_internal_code.internal_code_menu_categ"
+                  action="account_move_internal_code.internal_code_action_list" sequence=""/>
+    </data>
+</openerp>

@@ -1,0 +1,2 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+internal_code_all_access,internal code all access,account_move_internal_code.model_account_move_internal_code_internal_code,base.group_user,1,1,1,1

@@ -1,0 +1,118 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_move_adjust
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-21 15:30+0000\n"
+"PO-Revision-Date: 2016-02-21 23:39+0800\n"
+"Last-Translator: JasonWu <jason@solidfocus.com.tw>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: account_move_adjust
+#: model:ir.model,name:account_move_adjust.model_account_move
+msgid "Account Entry"
+msgstr "會計分錄"
+
+#. module: account_move_adjust
+#: view:account.move:account_move_adjust.view_account_move_filter
+msgid "Adjusted"
+msgstr "四舍五入"
+
+#. module: account_move_adjust
+#: view:account.move:account_move_adjust.view_account_move_filter
+msgid "Adjusted Journal Entries"
+msgstr "四舍五入後的分錄"
+
+#. module: account_move_adjust
+#: view:account_move_adjust.account_move_auto_adjust_wizard:account_move_adjust.account_move_auto_adjust_wizard_form
+msgid "Are you sure to auto adjust the selected entries?"
+msgstr "你確定要針對所選的會計分錄進行四舍五入嗎？"
+
+#. module: account_move_adjust
+#: model:ir.actions.act_window,name:account_move_adjust.manufacture_order_auto_done_wizard_action
+msgid "Auto Adjust"
+msgstr "自動四舍五入"
+
+#. module: account_move_adjust
+#: view:account_move_adjust.account_move_auto_adjust_wizard:account_move_adjust.account_move_auto_adjust_wizard_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: account_move_adjust
+#: field:account_move_adjust.account_move_auto_adjust_wizard,create_uid:0
+msgid "Created by"
+msgstr "建立者"
+
+#. module: account_move_adjust
+#: field:account_move_adjust.account_move_auto_adjust_wizard,create_date:0
+msgid "Created on"
+msgstr "建立在"
+
+#. module: account_move_adjust
+#: field:account_move_adjust.account_move_auto_adjust_wizard,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: account_move_adjust
+#: field:account.move,is_adjusted:0
+msgid "Is adjusted"
+msgstr "已經四舍五入"
+
+#. module: account_move_adjust
+#: field:account_move_adjust.account_move_auto_adjust_wizard,write_uid:0
+msgid "Last Updated by"
+msgstr "最後建立者"
+
+#. module: account_move_adjust
+#: field:account_move_adjust.account_move_auto_adjust_wizard,write_date:0
+msgid "Last Updated on"
+msgstr "最後建立在"
+
+#. module: account_move_adjust
+#: view:account.move:account_move_adjust.view_account_move_filter
+msgid "Not Adjusted"
+msgstr "尚未四舍五入"
+
+#. module: account_move_adjust
+#: view:account.move:account_move_adjust.view_account_move_filter
+msgid "Not Adjusted Journal Entries"
+msgstr "尚未四舍五入的會計分錄"
+
+#. module: account_move_adjust
+#: code:addons/account_move_adjust/models/account_move.py:33
+#: code:addons/account_move_adjust/models/account_move.py:43
+#, python-format
+msgid "can not find any credit lines"
+msgstr "沒有找到任何的貸方明細行資料"
+
+#. module: account_move_adjust
+#: code:addons/account_move_adjust/models/account_move.py:26
+#: code:addons/account_move_adjust/models/account_move.py:50
+#, python-format
+msgid "can not find any debit lines"
+msgstr "沒有找到任格的借方明細行資料"
+
+#. module: account_move_adjust
+#: code:addons/account_move_adjust/models/account_move.py:35
+#, python-format
+msgid "only one credit line is allowed"
+msgstr "允許只有一筆貸方明細行資料"
+
+#. module: account_move_adjust
+#: code:addons/account_move_adjust/models/account_move.py:52
+#, python-format
+msgid "only one debit line is allowed"
+msgstr "允許只有一筆借方明細行資料"
+
+#. module: account_move_adjust
+#: view:account.move:account_move_adjust.view_move_form
+msgid "四舍五入"
+msgstr "四舍五入"
